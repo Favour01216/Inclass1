@@ -7,6 +7,42 @@ body {
   padding: 2em;
 }
 h2 {
-  color: #fc0;
+  color: rgb(0, 38, 255);
   font-size: 2rem;
+}
+header {
+  background-color: hsla(0, 100%, 50%, 0.771);
+}
+main {
+  float: left;
+  width: 65vw;
+  height: 60vh;
+  background-color: hsl(264, 89%, 27%);
+}
+aside {
+  float: right;
+  width: 25vw;
+  height: 60vh;
+  background-color: hsl(264, 89%, 27%);
+}
+footer {
+  clear: both;
+  background-color: hsl(264, 89%, 27%);
+}
+.structural {
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid black;
+}
+#para1 {
+  color: rgb(171, 17, 12);
+}
+#para2 {
+  color: rgb(255, 0, 0);
+}
+a:hover {
+  color: rgb(255, 0, 0);
+}
+footer p {
+  font-size: 0.75em;
 }
